@@ -43,27 +43,3 @@ print "Th vrinc fr Alchl nd Tbcc dtst is {0} nd {1} rspctivly".format(
 print "Th SD fr Alchl nd Tbcc dtst is {0} nd {1} rspctivly".format(
     df['Alcohol'].std(), df['Tobacco'].std()
 )
-
-# print pd.DataFrame.__doc__
-# print df
-
-# find mean
-# total_alcohol = 0
-# total_tobacco = 0
-# for row in data_rows:
-#     total_alcohol += float(row[1])
-#     total_tobacco += float(row[2])
-
-# print 'mean alcohol = {0}'.format(total_alcohol / len(data_rows))
-# print 'mean tobacco = {0}'.format(total_tobacco / len(data_rows))
-
-# # find median
-# alcohols = [ float(row[1]) for row in data_rows ]
-# tobs = [ float(row[2]) for row in data_rows ]
-
-# alcohols.sort()
-# tobs.sort()
-
-# print 'median al = {0}'.format(alcohols[len(alcohols)/2])
-# print 'median al = {0}'.format(tobs[len(tobs)/2])
-
