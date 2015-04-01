@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import pandas as pd
-import math
 from scipy import stats
 
 data = '''Region, Alcohol, Tobacco
